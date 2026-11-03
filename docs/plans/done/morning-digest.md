@@ -1,6 +1,6 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
 ---
@@ -77,3 +77,23 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Completion
+
+Completed 2026-11-03. The reviewer saw the preview; the human approved replacing it
+at the same public URL with an export made with `LANE_MARKER` unset. The public
+copy was checked: the banner reads "no marker set" and the marker is absent.
+
+Validation: all 32 tests pass; TypeScript passes. The sample digest contains 5 jobs
+and 1 bad line; both nights on disk link to working digest pages.
+
+### Issues
+
+- [#1 Digest types and reader contract](https://github.com/pkleczek/mega-s01e04/issues/1)
+- [#2 Run log reader](https://github.com/pkleczek/mega-s01e04/issues/2)
+- [#3 Digest page](https://github.com/pkleczek/mega-s01e04/issues/3)
+- [#4 Digest JSON endpoint](https://github.com/pkleczek/mega-s01e04/issues/4)
+- [#5 Board links and counts](https://github.com/pkleczek/mega-s01e04/issues/5)
+- [#6 Digest route tests](https://github.com/pkleczek/mega-s01e04/issues/6)
+- [#7 Publish and submit review preview](https://github.com/pkleczek/mega-s01e04/issues/7)
+- [#8 Remove marker and archive plan](https://github.com/pkleczek/mega-s01e04/issues/8)
